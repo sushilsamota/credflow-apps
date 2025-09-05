@@ -125,4 +125,14 @@ How it works:
 - Each child component receives props for data and/or callbacks.
 - Child components notify the parent to move to the next step by calling the callback
 
+--->
+so Far i have added following component 
+yourmobile.js
+smsconsent.js
+otpconsent.js
+welcome.js
+profile.js
+ad.js
+upcomingbills.js  etc .
+
 
