@@ -68,3 +68,61 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# credflow-apps clone of cred apps 
+
+README.txt
+
+credflow-apps - POC React App
+
+This project demonstrates a simple multi-step consent flow using React functional components and props for parent-child communication.
+
+Implemented Files:
+------------------
+1. src/App.js
+   - Main parent component.
+   - Manages step state to control which screen is displayed.
+   - Passes data and callback props to child components.  data as props and callback as props .
+
+2. src/components/Yourmobile.js
+   - First step: displays mobile number.
+   - Accepts mobile number as prop.
+   - Calls parent callback on consent.
+
+3. src/components/SmsConsent.js
+   - Second step: SMS consent screen.
+   - Calls parent callback on consent.
+
+4. src/components/OtpConsent.js
+   - Third step: OTP consent screen.
+   - Calls parent callback on consent.
+
+5. src/components/Welcome.js
+   - Final step: Welcome screen after all consents.
+
+6. src/App.css (or styles/Yourmobile.css, etc.)
+   - Basic styling for components.
+
+API Docs (Component Props):
+---------------------------
+- Yourmobile
+  - data: string (mobile number)
+  - onConsent: function (callback to parent)
+
+- SmsConsent
+  - onConsent: function (callback to parent)
+
+- OtpConsent
+  - onConsent: function (callback to parent)
+
+- Welcome
+  - No props
+
+How it works:
+-------------
+- App.js controls the flow using a step state.
+- Each child component receives props for data and/or callbacks.
+- Child components notify the parent to move to the next step by calling the callback
+
+
