@@ -1,11 +1,27 @@
+import Avatar from '@mui/material/Avatar';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import Typography from '@mui/material/Typography';
+
 export default function Profile({ appName }) {
     return (
-        <div className="profile">
-            <p>App Name: {appName}</p>
-            <h2>Profile Information</h2>
-            <h6>Name:Sushil</h6>
-            <img src="https://www.google.com/imgres?q=cred%20apps&imgurl=https%3A%2F%2Fplay-lh.googleusercontent.com%2Fr2ZbsIr5sQ7Wtl1T6eevyWj4KS7QbezF7JYB9gxQnLWbf0K4kU7qaLNcJLLUh0WG-3pK&imgrefurl=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%2FCRED_UPI_Credit_Cards%3Fid%3Dcom.dreamplug.androidapp%26hl%3Den_SG&docid=BN5jDOY0R5PHdM&tbnid=1oIeZKK_x7ys5M&vet=12ahUKEwj-29GBpMGPAxXVi68BHfnlJoEQM3oECBcQAA..i&w=512&h=512&hcb=2&ved=2ahUKEwj-29GBpMGPAxXVi68BHfnlJoEQM3oECBcQAA" alt="Profile" />
-        </div>
+        <Card className="profile" sx={{ maxWidth: 320, margin: '0 auto', mt: 2 }}>
+            <CardContent>
+                <Typography variant="h5" component="div" gutterBottom>
+                    Profile Information
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                    hello,
+                </Typography>
+                <Typography variant="subtitle2" sx={{ mb: 2 }}>
+                    Sushil
+                </Typography>
+                <Avatar
+                    alt="Profile"
+                    src="https://play-lh.googleusercontent.com/r2ZbsIr5sQ7Wtl1T6eevyWj4KS7QbezF7JYB9gxQnLWbf0K4kU7qaLNcJLLUh0WG-3pK"
+                    sx={{ width: 80, height: 80, margin: '0 auto' }}
+                />
+            </CardContent>
+        </Card>
     );
 }
-
