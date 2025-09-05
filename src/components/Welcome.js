@@ -1,8 +1,13 @@
+import Ad from "./Ad";
+import Profile from "./Profile";
+import UpcomingBills from "./UpcomingBills";
+
 export default function Welcome() {
     return (
         <div className="welcome">
-            <h2>Welcome!</h2>
-            <span>Your membership setup is complete.</span>
+            <Profile></Profile>
+            <Ad></Ad>
+            <UpcomingBills></UpcomingBills>
         </div>
     );
 }
