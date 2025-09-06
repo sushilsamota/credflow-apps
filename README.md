@@ -137,7 +137,10 @@ upcomingbills.js  etc .
 
 
 -have used material UI (Lib)
--use axios lib 
+-use axios lib -TODO-instead i used fetch api 
 
--cards section -creditcard.js -fetch list of credit cards belong with users .
-in profile.js file i have used fetch api 
+-In profile.js have used -fetch api to call and get api data .
+
+-in welcome screen -> "Cards" on button clicked i want all cards to be load as per user -that i need to implement-#TODO -dont have api backend -#TODO
+
+
