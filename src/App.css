@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  
 }
 
 .App-logo {
@@ -46,7 +47,7 @@
   transform: translate(-50%, -50%);
   width: 350px;
   padding: 24px 20px;
-  background: #fff;
+  background: yellow;
   border-radius: 12px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.18);
   z-index: 200;
@@ -93,4 +94,10 @@
 .adFlexbox > .MuiCard-root {
   flex: 1 1 0;
   min-width: 220px;
+}
+
+/* Add to your CSS file */
+.no-bullets {
+  list-style: none;
+  padding-left: 0;
 }

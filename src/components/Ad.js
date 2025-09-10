@@ -9,7 +9,7 @@ export default function Ad() {
                     <Typography variant="body2">This is an advertisement component.</Typography>
                 </CardContent>
             </Card>
-            <Card>
+            {/* <Card>
                 <CardContent>
                     <Typography variant="h5">Advertisement</Typography>
                     <Typography variant="body2">This is an advertisement component.</Typography>
@@ -20,7 +20,7 @@ export default function Ad() {
                     <Typography variant="h5">Advertisement</Typography>
                     <Typography variant="body2">This is an advertisement component.</Typography>
                 </CardContent>
-            </Card>
+            </Card> */}
         </div>
 
     );
