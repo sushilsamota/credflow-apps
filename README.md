@@ -69,6 +69,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+Note:
+Always use a valid, real version for dependencies.
+Recommendation :use modern tools like Vite or Next.js instead of Create React App. here i created CRA for Self POC purpose .
+$ npx create-react-app <credflow-apps>
+
 
 # credflow-apps clone of cred apps 
 
