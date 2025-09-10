@@ -149,3 +149,5 @@ upcomingbills.js  etc .
 -in welcome screen -> "Cards" on button clicked i want all cards to be load as per user -that i need to implement-#TODO -dont have api backend -#TODO
 
 -Jest test case added for first screen . in this way we can write more test case per per this pattern .
+
+on [ show cards ] button click card loading all the details .
